@@ -18,3 +18,13 @@ run ruby anagramCounter.rb
 - Iterate through the hashtable and print the strings in the value array of each key in the hashtable
 - Keep count of the keys that have values with arrays with more than one word (means found anagrams in the input file)
 -print to user the number of words in the file and the number of anagrams found
+
+Complexity
+n = number of words in the input file
+m = length of the longest word in the input file
+
+Space complexity
+O(n) - Hashtable
+
+Time Complexity
+O(n log m) - sorting each string O(m log m) + iterating through the file O(n) + iterating through hashtable O(n)
