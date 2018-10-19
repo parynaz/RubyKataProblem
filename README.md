@@ -1,5 +1,7 @@
 # RubyKataProblem
 
+Problem: http://codekata.com/kata/kata06-anagrams/
+
 ### Code contained in this repository
 anagramCounter.rb contains the logic to output anagrams of input files
 test.txt contains a small list of words to run for testing
